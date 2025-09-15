@@ -2,10 +2,10 @@ import pymysql
 
 # Connect to MySQL server (without specifying database)
 conn = pymysql.connect(
-    host='127.0.0.1',
-    user='root',
-    password='Akashdhoni11',
-    port=3306
+    host=os.getenv('MYSQL_HOST', '127.0.0.1'),
+    user=os.getenv('MYSQL_USER', 'root'),
+    password=os.getenv('MYSQL_PASSWORD', 'YOUR_PASSWORD'),
+    port=int(os.getenv('MYSQL_PORT', 3306))
 )
 
 # Create database if it doesn't exist
@@ -16,11 +16,11 @@ conn.close()
 
 # Connect to the database
 conn = pymysql.connect(
-    host='127.0.0.1',
-    user='root',
-    password='Akashdhoni11',
-    database='test',
-    port=3306
+    host=os.getenv('MYSQL_HOST', '127.0.0.1'),
+    user=os.getenv('MYSQL_USER', 'root'),
+    password=os.getenv('MYSQL_PASSWORD', 'YOUR_PASSWORD'),
+    database=os.getenv('MYSQL_DATABASE', 'test'),
+    port=int(os.getenv('MYSQL_PORT', 3306))
 )
 
 # Create users table if it doesn't exist

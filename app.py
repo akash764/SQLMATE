@@ -20,7 +20,7 @@ app.add_middleware(
 )
 
 # Configure Google Gemini API
-genai.configure(api_key="AIzaSyBxfW2XOHBv0CxeutSM2enn9U-yeFkXins")
+genai.configure(api_key=os.getenv("GEMINI_API_KEY", "YOUR_GEMINI_API_KEY"))
 model = genai.GenerativeModel("gemini-1.5-flash")
 
 # Create engine from user's connection details

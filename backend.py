@@ -4,11 +4,11 @@ url = "http://127.0.0.1:8000/query"
 payload = {
     "prompt": "List all users",
     "connection": {
-        "root": "root",
-        "leena": "Akashdhoni11",
-        "host": "127.0.0.1",
-        "port": "3306",
-        "test": "testdb"
+        "user": "YOUR_USER",
+        "password": "YOUR_PASSWORD",
+        "host": "YOUR_HOST",
+        "port": "YOUR_PORT",
+        "database": "YOUR_DATABASE"
     }
 }
 
