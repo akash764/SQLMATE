@@ -39,7 +39,7 @@ Schema Design & Query Execution
 
 Google Gemini API (Natural Language → SQL)
 
-Programming Languages:
+## Programming Languages:
 
 Python
 
