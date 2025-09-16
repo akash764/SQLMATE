@@ -8,7 +8,7 @@
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 ![Google AI](https://img.shields.io/badge/Google%20Gemini-AI-blue?style=for-the-badge&logo=google&logoColor=white)
 
-
+## GenAI project
 ## Just built an AI-Powered Natural Language to SQL Query Generator! With this project, you can type a question in plain English, and it automatically generates SQL queries, executes them on a live MySQL database, and displays results instantly.
 
 ## Skills & Technologies Used
